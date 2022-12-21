@@ -139,7 +139,7 @@ int search()
                 fgets(buffer, line_size, file); // get line
                 printf("%s", buffer);           // print it
             }
-            break; // perpome if() then break the while loop
+            break; // perform if() then break the while loop
         }
     };
     if (feof(file)) // if reached end of line
